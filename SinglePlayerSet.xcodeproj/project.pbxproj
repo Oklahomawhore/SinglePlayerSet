@@ -8,17 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		46351A8E29ECF22400AFD105 /* SinglePlayerSetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46351A8D29ECF22400AFD105 /* SinglePlayerSetApp.swift */; };
-		46351A9029ECF22400AFD105 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46351A8F29ECF22400AFD105 /* ContentView.swift */; };
+		46351A9029ECF22400AFD105 /* SetGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46351A8F29ECF22400AFD105 /* SetGameView.swift */; };
 		46351A9229ECF22900AFD105 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46351A9129ECF22900AFD105 /* Assets.xcassets */; };
 		46351A9529ECF22900AFD105 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46351A9429ECF22900AFD105 /* Preview Assets.xcassets */; };
+		46351A9C29ECFF3600AFD105 /* SetGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46351A9B29ECFF3600AFD105 /* SetGame.swift */; };
+		46351A9E29ED034600AFD105 /* TriState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46351A9D29ED034600AFD105 /* TriState.swift */; };
+		46351AA029ED34BB00AFD105 /* SetGameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46351A9F29ED34BB00AFD105 /* SetGameViewModel.swift */; };
+		46351AA229ED41A700AFD105 /* DiamondShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46351AA129ED41A700AFD105 /* DiamondShape.swift */; };
+		46351AA429ED518F00AFD105 /* AspectVGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46351AA329ED518F00AFD105 /* AspectVGrid.swift */; };
+		4657F65D29EED4E8005783F6 /* SwiggleShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4657F65C29EED4E8005783F6 /* SwiggleShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		46351A8A29ECF22400AFD105 /* SinglePlayerSet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SinglePlayerSet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46351A8D29ECF22400AFD105 /* SinglePlayerSetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglePlayerSetApp.swift; sourceTree = "<group>"; };
-		46351A8F29ECF22400AFD105 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		46351A8F29ECF22400AFD105 /* SetGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetGameView.swift; sourceTree = "<group>"; };
 		46351A9129ECF22900AFD105 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46351A9429ECF22900AFD105 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		46351A9B29ECFF3600AFD105 /* SetGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetGame.swift; sourceTree = "<group>"; };
+		46351A9D29ED034600AFD105 /* TriState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriState.swift; sourceTree = "<group>"; };
+		46351A9F29ED34BB00AFD105 /* SetGameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetGameViewModel.swift; sourceTree = "<group>"; };
+		46351AA129ED41A700AFD105 /* DiamondShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiamondShape.swift; sourceTree = "<group>"; };
+		46351AA329ED518F00AFD105 /* AspectVGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AspectVGrid.swift; sourceTree = "<group>"; };
+		4657F65C29EED4E8005783F6 /* SwiggleShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiggleShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +63,16 @@
 		46351A8C29ECF22400AFD105 /* SinglePlayerSet */ = {
 			isa = PBXGroup;
 			children = (
+				46351A9D29ED034600AFD105 /* TriState.swift */,
 				46351A8D29ECF22400AFD105 /* SinglePlayerSetApp.swift */,
-				46351A8F29ECF22400AFD105 /* ContentView.swift */,
+				46351A8F29ECF22400AFD105 /* SetGameView.swift */,
+				46351A9B29ECFF3600AFD105 /* SetGame.swift */,
+				46351A9F29ED34BB00AFD105 /* SetGameViewModel.swift */,
+				46351AA129ED41A700AFD105 /* DiamondShape.swift */,
+				46351AA329ED518F00AFD105 /* AspectVGrid.swift */,
 				46351A9129ECF22900AFD105 /* Assets.xcassets */,
 				46351A9329ECF22900AFD105 /* Preview Content */,
+				4657F65C29EED4E8005783F6 /* SwiggleShape.swift */,
 			);
 			path = SinglePlayerSet;
 			sourceTree = "<group>";
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46351A9029ECF22400AFD105 /* ContentView.swift in Sources */,
+				4657F65D29EED4E8005783F6 /* SwiggleShape.swift in Sources */,
+				46351AA229ED41A700AFD105 /* DiamondShape.swift in Sources */,
+				46351A9029ECF22400AFD105 /* SetGameView.swift in Sources */,
+				46351AA429ED518F00AFD105 /* AspectVGrid.swift in Sources */,
+				46351A9E29ED034600AFD105 /* TriState.swift in Sources */,
+				46351A9C29ECFF3600AFD105 /* SetGame.swift in Sources */,
 				46351A8E29ECF22400AFD105 /* SinglePlayerSetApp.swift in Sources */,
+				46351AA029ED34BB00AFD105 /* SetGameViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
